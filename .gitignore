@@ -1,0 +1,25 @@
+venv/
+.venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+
+# Virtual environment folders
+.venv/
+.venv/
+__pycache__/
+outputs/
+*.pyc
+*.ipynb
+.DS_Store

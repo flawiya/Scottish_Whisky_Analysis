@@ -31,3 +31,4 @@ python -m src.analysis --distilleries data\distilleries_cleaned.csv --shapefile 
 Notes
 - The notebook is intentionally not included; `src/analysis.py` reproduces the same steps.
 - Consider caching NASA POWER responses for development.
+

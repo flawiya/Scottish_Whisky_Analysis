@@ -19,7 +19,6 @@ htmlcov/
 .venv/
 .venv/
 __pycache__/
-outputs/
 *.pyc
 *.ipynb
 .DS_Store

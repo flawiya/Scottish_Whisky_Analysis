@@ -2,7 +2,7 @@
 
 An integrated geospatial analysis tool evaluating climate vulnerability across 140+ Scottish distilleries using NASA SMAP satellite data.
 
-## 🔗 [View Live Interactive Dashboard](PASTE_YOUR_GITHUB_PAGES_LINK_HERE)
+## 🔗 [View Live Interactive Dashboard](https://flawiya.github.io/Scottish_Whisky_Analysis/)
 
 ---
 

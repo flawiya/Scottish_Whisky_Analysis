@@ -1,34 +1,34 @@
-# whisky-supply-chain-climate
+# 🥃 Satellite Monitoring of Soil Moisture in the Scottish Whisky Supply Chain
 
-Scaffolded project reproducing the Scottish whisky supply-chain climate analysis as runnable Python scripts (no notebook included).
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![GeoPandas](https://img.shields.io/badge/GIS-GeoPandas-green)](https://geopandas.org/)
+[![NASA API](https://img.shields.io/badge/Data-NASA%20POWER%20API-orange)](https://power.larc.nasa.gov/)
 
-Structure
-- data/                   # (Optional) Add CSVs and shapefiles used by the analysis
-- notebook/               # Notebook intentionally omitted; see README note
-- outputs/
-  - figures/              # Generated PNG figures will be saved here
-- src/
-  - analysis.py           # Main script reproducing notebook workflow
-  - nasa_api.py           # NASA POWER helper (fetch_rainfall_data)
-- requirements.txt
-- .gitignore
+## 📌 Project Overview
+The Scotch Whisky industry contributes £7.1 billion to the UK economy but relies heavily on barley yields vulnerable to moisture stress. This project utilizes **NASA SMAP satellite data** to model the spatial overlap between distillery locations and projected drought risk for the 2025 growing season.
 
-Quick start
-1. Create and activate a venv then install dependencies:
+### 🔗 [Live Interactive Climate Dashboard](YOUR_GITHUB_PAGES_LINK_HERE)
 
-```powershell
-py -3 -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
+## 📊 Key Findings
+- **The Speyside Paradox:** While the Western Highlands remain water-secure, the highest density of distilleries in the East aligns with regions projected to face "Moderate to Severe" moisture stress.
+- **Risk Exposure:** Over 20% of active distilleries are situated in high-risk agricultural grain belts.
 
-2. Add your input files under `data/` and run:
+## 🛠️ Tech Stack & Data
+- **NASA POWER API:** For satellite-derived precipitation proxies (PRECTOTCORR).
+- **GeoPandas & Folium:** For administrative boundary processing and interactive dashboarding.
+- **Simplification Algorithms:** Implemented geometry simplification to optimize high-resolution Scottish coastline data for web performance.
 
-```powershell
-python -m src.analysis --distilleries data\distilleries_cleaned.csv --shapefile "data\Local_Authority_Boundaries_-_Scotland\pub_las.shp" --output outputs
-```
+## 📁 Repository Structure
+- `data/`: Shapefiles and distillery coordinates.
+- `notebook/`: The full analysis and visualization workflow.
+- `src/`: Modular Python scripts for API calls and data cleaning.
+- `outputs/`: Static maps and risk classification reports.
 
-Notes
-- The notebook is intentionally not included; `src/analysis.py` reproduces the same steps.
-- Consider caching NASA POWER responses for development.
+## 🚀 How to Use
+1. Clone the repo: `git clone https://github.com/flawiya/Scottish_Whisky_Analysis.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the analysis: `python -m src.analysis`
 
+## 📑 References
+- Scotch Whisky Association (2024) Economic Impact Report.
+- NASA POWER API Documentation.

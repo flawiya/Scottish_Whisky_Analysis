@@ -1,4 +1,14 @@
 # 🥃 Satellite-Driven Drought Risk Assessment: Scotch Whisky Supply Chain
+![alt text](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+![alt text](https://img.shields.io/badge/NASA_POWER-Data-blue?style=for-the-badge&logo=nasa)
+
+![alt text](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=pandas&logoColor=white)
+
+![alt text](https://img.shields.io/badge/Folium-77B829?style=for-the-badge&logo=leaflet&logoColor=white)
+
+![alt text](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
 
 An integrated geospatial analysis tool evaluating climate vulnerability across 140+ Scottish distilleries using NASA SMAP satellite data.
 

@@ -12,7 +12,7 @@ This project bridges environmental science and industrial logistics. By integrat
 ### Key Visualizations
 | Rainfall Gradient (Fig 1) | Drought Risk (Fig 2) | Industry Exposure (Fig 3) |
 |---|---|---|
-| ![Rainfall](./outputs/rain_map.png) | ![Risk](./outputs/risk_map.png) | ![Exposure](./outputs/exposure_map.png) |
+| ![Rainfall](./outputs/figure_rainfall.png) | ![Risk](./outputs/figure_drought.png) | ![Exposure](./outputs/figure_exposure.png) |
 
 ## 🛠️ Technical Implementation
 - **Data Sourcing:** Automated extraction of `PRECTOTCORR` (corrected precipitation) via NASA's API.
